@@ -3,14 +3,14 @@ import os
 from emotion_classifier import predict_emotion
 from recommender import get_recommendations
 
-# — Page Configuration —
+#  Page Configuration 
 st.set_page_config(
     page_title="Moodify • Emotion-Aware Music Recommender",
     layout="centered",
     initial_sidebar_state="collapsed"
 )
 
-# — Custom Styling: dark theme + useful white upload box —
+# Dark theme
 st.markdown("""
     <style>
         /* Overall page */
@@ -74,11 +74,11 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# — Title —
+# Title 
 st.markdown("<h1>Moodify</h1>", unsafe_allow_html=True)
 st.markdown("<h3>Let your voice choose the soundtrack</h3>", unsafe_allow_html=True)
 
-# — Upload Section —
+# Upload Section
 st.markdown("<div class='upload-area'>", unsafe_allow_html=True)
 st.markdown(
     "<div class='upload-instruction'>Drag & drop your .wav file here<br>or click to browse</div>",
@@ -87,7 +87,7 @@ st.markdown(
 uploaded_file = st.file_uploader("", type=["wav"], label_visibility="collapsed")
 st.markdown("</div>", unsafe_allow_html=True)
 
-# — Emotion Detection & Recommendations —
+# Emotion Detection & Recommendations 
 if uploaded_file:
     # Save temp file
     temp_path = "temp_input.wav"
