@@ -37,11 +37,3 @@ python3 emotion_classifier.py --train
 streamlit run app.py
 
 Whatever's the last thing which is on your mind, say it to Moodify and let the music in to lead the chaos out.
-
-
-
-
-
-
-
-Ask ChatGPT
