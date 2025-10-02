@@ -12,7 +12,8 @@ __pycache__/
 audio/
 recordings/
 dataset/
-data/
+data/raw/
+data/large/
 
 # Track trained model explicitly
 !models/emotion_model.pkl

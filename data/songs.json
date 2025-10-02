@@ -1,0 +1,58 @@
+{
+  "happy": [
+    {
+      "title": "Here Comes the Sun - The Beatles",
+      "link": "https://open.spotify.com/track/6dGnYIeXmHdcikdzNNDMm2"
+    },
+    {
+      "title": "Happy - Pharrell Williams",
+      "link": "https://open.spotify.com/track/60nZcImufyMA1MKQY3dcCH"
+    },
+    {
+      "title": "Upbeat Morning Playlist",
+      "link": "https://open.spotify.com/playlist/37i9dQZF1DXdPec7aLTmlC"
+    }
+  ],
+  "sad": [
+    {
+      "title": "Someone Like You - Adele",
+      "link": "https://open.spotify.com/track/4kflIGfjdZJW4ot2ioixTB"
+    },
+    {
+      "title": "Fix You - Coldplay",
+      "link": "https://open.spotify.com/track/20I6sIOMTCkB6w7ryavxtO"
+    },
+    {
+      "title": "Melancholy Evening",
+      "link": "https://open.spotify.com/playlist/37i9dQZF1DWVrtsSlLKzro"
+    }
+  ],
+  "neutral": [
+    {
+      "title": "Clocks - Coldplay",
+      "link": "https://open.spotify.com/track/0BCPKOYdS2jbQ8iyB56Zns"
+    },
+    {
+      "title": "Yellow - Coldplay",
+      "link": "https://open.spotify.com/track/3AJwUDP919kvQ9QcozQPxg"
+    },
+    {
+      "title": "Everyday Chill",
+      "link": "https://open.spotify.com/playlist/37i9dQZF1DX4WYpdgoIcn6"
+    }
+  ],
+  "angry": [
+    {
+      "title": "Break Stuff - Limp Bizkit",
+      "link": "https://open.spotify.com/track/0SRtoq6YQrXk378ml3oRFM"
+    },
+    {
+      "title": "Killing In The Name - Rage Against The Machine",
+      "link": "https://open.spotify.com/track/4zPtlGIwUcfjwOmkvAzgVV"
+    },
+    {
+      "title": "High-Energy Rock",
+      "link": "https://open.spotify.com/playlist/37i9dQZF1DWYmmr74INQlb"
+    }
+  ]
+}
