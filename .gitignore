@@ -1,27 +1,31 @@
-
-#  Python Defaults & ML Pipelines
-
+# Python cache and compiled files
 __pycache__/
-*.py[codz]
+*.py[cod]
 *$py.class
 *.so
 .Python
 *.log
-*.csv
-*.tsv
-*.db
-*.sqlite
-*.sqlite3
-*.pickle
-*.pkl
-*.h5
-*.hdf5
+
+# Ignore raw audio and data
+*.wav
+*.mp3
+audio/
+recordings/
+dataset/
+data/
+
+# Track trained model explicitly
+!models/emotion_model.pkl
+
+# Ignore other model files
 *.joblib
+*.pickle
 *.npy
 *.npz
+*.h5
+*.hdf5
 
-#  Packaging / Distribution
-
+# Packaging
 build/
 dist/
 develop-eggs/
@@ -41,8 +45,7 @@ share/python-wheels/
 MANIFEST
 *.spec
 
-#  Environment & Dependency Managers
-
+# Virtual environments
 .venv/
 venv/
 env/
@@ -59,8 +62,7 @@ Pipfile.lock
 poetry.lock
 poetry.toml
 
-#  Testing & Coverage
-
+# Testing and coverage
 .tox/
 .nox/
 .coverage
@@ -78,8 +80,7 @@ dmypy.json
 .pyre/
 .pytype/
 
-#  Notebook & IDE/Editor Config
-
+# IDEs and notebooks
 .ipynb_checkpoints/
 .idea/
 .spyderproject
@@ -89,47 +90,19 @@ dmypy.json
 .cursorignore
 .cursorindexingignore
 .ruff_cache/
-.pyre/
-.pytype/
-.marimo/
 
-#  Framework-specific
-
-# Django/Flask
+# Framework-specific
 local_settings.py
 instance/
 .webassets-cache
-
-# Streamlit
 .streamlit/secrets.toml
 .streamlit/config.toml
-
-# Scrapy
 .scrapy
-
-# Docs
 docs/_build/
 site/
+__marimo/
 
-#  Project-specific (Moodify)
-
-# Models
-models/
-models/*.pkl
-models/*.joblib
-
-# Audio recordings
-*.wav
-*.mp3
-audio/
-recordings/
-dataset/
-data/
-
-# UI cache/temp
-__marimo__/
-
-# Uploaded/generated temp files
+# Temporary and system files
 *.tmp
 *.bak
 *.swp
